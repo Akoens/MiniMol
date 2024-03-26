@@ -1,11 +1,13 @@
 # MiniMol
+![Static Badge](https://img.shields.io/badge/version-v0.0.1-red)
+![Static Badge](https://img.shields.io/badge/license-GPLv3-Green?style=flat-square)
 > Create 3D images of Proteins to help support your scientific discoveries.
 
-This project is a fullstack web application used for reading, editing and visualizing PDB files. 
+This project is a fullstack web application used for reading, editing and visualizing PDB files.
 Upon hosting this application on a server, the browser can be used to access the interface and use the editor.
-The intended use of this project is for researchers and student who do not know the ins and outs of pymol. 
-Using this application they can still make comprehensive visualization without much the hassle.
-This application delivers a number of preset visualization of 3D proteins of which Solution "Accessible Surface Area" and "Molecular Charge".
+The intended users of this project are researchers and student who do not know the ins and outs of pymol.
+Using this application they can still make comprehensive visualization without the hassle.
+This application delivers a number of preset visualization of 3D proteins such as showing the "Solution Accessible Surface Area" and "Protein Polarity".
 
 
 ## Getting Started
@@ -89,32 +91,32 @@ python manage.py runserver
 
 I use [Semantic Versioning](http://semver.org/) for versioning. For the versions
 available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+repository](https://github.com/Akoens/MiniMol/tags).
 
 ### Release History
 
 [//]: # ()
-[//]: # (* 0.2.1)
+[//]: # (* v0.2.1)
 
 [//]: # (    * CHANGE: Update docs &#40;module code remains unchanged&#41;)
 
-[//]: # (* 0.2.0)
+[//]: # (* v0.2.0)
 
 [//]: # (    * CHANGE: Remove `setDefaultXYZ&#40;&#41;`)
 
 [//]: # (    * ADD: Add `init&#40;&#41;`)
 
-[//]: # (* 0.1.1)
+[//]: # (* v0.1.1)
 
 [//]: # (    * FIX: Crash when calling `baz&#40;&#41;` &#40;Thanks @GenerousContributorName!&#41;)
 
-[//]: # (* 0.1.0)
+[//]: # (* v0.1.0)
 
 [//]: # (    * The first proper release)
 
 [//]: # (    * CHANGE: Rename `foo&#40;&#41;` to `bar&#40;&#41;`)
 
-* 0.0.1
+* v0.0.1
 
     * Work in progress
 
@@ -141,7 +143,18 @@ Distributed under the [GPLv3](LICENSE) GNU General Public License. See ``LICENSE
   - Thanks to [PurpleBooth](https://github.com/PurpleBooth) 
     and [dbater](https://github.com/dbader) for inspiring this README. 
 
+## Build With
+- [3DMol](http://3dmol.csb.pitt.edu/) - for 3d rendering of proteins.  
+- [Tailwindcss](https://tailwindcss.com/) - for css styling.  
+- [Shadcn](https://ui.shadcn.com/) - for web components.
+- [Next.js](https://nextjs.org/) - for building front-end.
+- [Django](https://www.djangoproject.com/) - for building back-end.
+
 ## References
-http://3dmol.csb.pitt.edu/  
-https://tailwindcss.com/  
-https://ui.shadcn.com/  
+Wed 6th of March 2024  
+https://3dmol.org/doc/index.html  
+https://tailwindcss.com/docs/  
+https://ui.shadcn.com/docs  
+https://nextjs.org/docs
+
+
