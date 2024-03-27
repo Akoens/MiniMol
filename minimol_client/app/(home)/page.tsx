@@ -6,24 +6,17 @@ import { Medal } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 
-export default function HomePage() {
+const HomePage = () => {
   return (
-    <div>
-      <div className="flex items-center justify-center flex-col">
-        <div className="flex items-center justify-center flex-col">
-          <div className="mb-4 flex items-center border shadow-sm p-4 bg-amber-100 text-amber-700 rounded-full uppercase">
-            <Medal className="h-6 w-6 mr-2" />
-            The better Pymol
-          </div>
-          <Button className="mt-6" size="lg" asChild>
-            <Link href="/about">
-              Check the about page
-            </Link>
-          </Button>
-
-        </div>
-      </div>
-
+    <div className="theme-zinc flex justify-center text-center flex-col text-zinc-300 my-10">
+      <h1 className="text-6xl font-bold">
+        Create, Visualize & Expand
+      </h1>
+      <span className="text-lg text-zinc-500">
+        The better way to visualize proteins. With a user friendly and UX/UI.
+      </span>
     </div>
   )
 }
+
+export default HomePage 

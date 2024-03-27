@@ -1,27 +1,23 @@
+import React from "react";
 import Link from "next/link"
 
 import { Button } from "@/components/ui/button"
 
-export default function LandingLayout({
+import { Navbar } from "./_components/navbar"
+
+const LandingLayout = ({
     children
 }: {
     children: React.ReactNode;
-}) {
+}) => {
     return (
-        <div>
-            <div className="w-full bg-slate-100">
-                {/* Navbar */}
-                <div className="flex justify-center">
-                    <Button>
-                        Home
-                    </Button>
-
-                </div>
-
-            </div>
-            <main className="pr-40 pb-20 bg-slate-100">
+        <div className="p-4 flex bg-zinc-950">
+            <Navbar/>
+            <main className="h-[98vh] w-screen ml-20 px-4">
                 {children}
             </main>
         </div>
     );
 };
+
+export default LandingLayout;
