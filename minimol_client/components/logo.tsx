@@ -5,9 +5,9 @@ export const Logo = () => {
   return (
     <Link href="/">
       
-      <div className="hover:opacity-75 transition items-center gap-x-2 flex flex-col">
+      <div className="hover:invert hover:animate-spin transition items-center gap-x-2 flex flex-col">
       <Image
-          className="rounded-full invert"
+          className="rounded-full invert hover:opacity-85  hover:bg-white hover:border-2"
           src="/logo.svg"
           alt="Logo"
           height={40}

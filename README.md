@@ -142,6 +142,7 @@ Distributed under the [GPLv3](LICENSE) GNU General Public License. See ``LICENSE
 
   - Thanks to [PurpleBooth](https://github.com/PurpleBooth) 
     and [dbater](https://github.com/dbader) for inspiring this README. 
+  - Thanks to [Elliot Hershberg](https://github.com/elliothershberg) for a his [3Dmol.js-NEXT.js implementation](https://github.com/elliothershberg/nextjs-3dmol/).
 
 ## Build With
 - [3DMol](http://3dmol.csb.pitt.edu/) - for 3d rendering of proteins.  
