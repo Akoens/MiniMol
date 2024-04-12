@@ -19,18 +19,19 @@ const MolViewer = ({params,}: { params: { pdb_id: string } }) => {
             }
             downloadPDB(viewer)
 
-            viewer.setClickable({}, true, (atom: any, viewer_inner: GLViewer, event: any, container: any) => {
-                    viewer_inner.addLabel(atom.resn + ":" + atom.atom, {
-                        position: atom,
-                        backgroundColor: 'darkgreen',
-                        backgroundOpacity: 0.8
-                    });
-                })
+            // viewer.setClickable({}, true, (atom: any, viewer_inner: GLViewer, event: any, container: any) => {
+            //         viewer_inner.addLabel(atom.resn + ":" + atom.atom, {
+            //             position: atom,
+            //             backgroundColor: 'darkgreen',
+            //             backgroundOpacity: 0.8
+            //         });
+            //     })
             viewer.zoomTo();
             viewer.zoom(0.8, 2000);
         };
 
         const downloadPDB = (viewer: GLViewer) => {
+            // download("pdb:".concat(params.pdb_id), viewer, {multimodel: true, frames: true, doAssembly: true}, function () {
             download("pdb:".concat(params.pdb_id), viewer, {multimodel: true, frames: true}, function () {
                 viewer.setStyle({}, {cartoon: {color: "spectrum"}});
                 viewer.render();

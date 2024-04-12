@@ -22,7 +22,7 @@ This application delivers a number of preset visualization of 3D proteins such a
 
 Requirements for the software and other tools to build, test and push. 
 - [Python 3](https://www.python.org/downloads/)
-- [NodeJS](https://nodejs.org/en) - for development
+- [NodeJS](https://nodejs.org/en)
 
 ### Installing
 
@@ -116,6 +116,11 @@ repository](https://github.com/Akoens/MiniMol/tags).
 
 [//]: # (    * CHANGE: Rename `foo&#40;&#41;` to `bar&#40;&#41;`)
 
+* v0.0.2
+
+    * First front-end rendering of proteins using a dynamic path.
+    * First back-end requesting using View class.
+
 * v0.0.1
 
     * Work in progress
@@ -142,7 +147,7 @@ Distributed under the [GPLv3](LICENSE) GNU General Public License. See ``LICENSE
 
   - Thanks to [PurpleBooth](https://github.com/PurpleBooth) 
     and [dbater](https://github.com/dbader) for inspiring this README. 
-  - Thanks to [Elliot Hershberg](https://github.com/elliothershberg) for a his [3Dmol.js-NEXT.js implementation](https://github.com/elliothershberg/nextjs-3dmol/).
+  - Thanks to [Elliot Hershberg](https://github.com/elliothershberg) for his [3Dmol.js-NEXT.js](https://github.com/elliothershberg/nextjs-3dmol/) implementation.
 
 ## Build With
 - [3DMol](http://3dmol.csb.pitt.edu/) - for 3d rendering of proteins.  
@@ -157,5 +162,6 @@ https://3dmol.org/doc/index.html
 https://tailwindcss.com/docs/  
 https://ui.shadcn.com/docs  
 https://nextjs.org/docs
+https://docs.djangoproject.com/en/5.0/
 
 
