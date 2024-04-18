@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "rest_framework",
+    # 'corsheaders',
+    "pdb_browser.apps.PdbBrowserConfig"
 ]
 
 MIDDLEWARE = [
@@ -48,7 +50,15 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "django_cprofile_middleware.middleware.ProfilerMiddleware",
+    # 'corsheaders.middleware.CorsMiddleware',
+    # 'django.middleware.common.CommonMiddleware',
 ]
+
+DJANGO_CPROFILE_MIDDLEWARE_REQUIRE_STAFF = False
+
+# CORS_ALLOW_ALL_ORIGINS = True
+# CSRF_COOKIE_SECURE = False
 
 ROOT_URLCONF = 'minimol_server.urls'
 

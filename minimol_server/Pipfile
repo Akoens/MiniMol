@@ -6,11 +6,14 @@ name = "pypi"
 [packages]
 django = "*"
 djangorestframework = "*"
+django-cors-headers = "*"
+
 coverage = "*"
 biopython = "*"
 
 [dev-packages]
-
+django-cprofile-middleware   = "*"
+SnakeViz  = "*"
 [requires]
 python_version = "3.9"
 python_full_version = "3.9.13"

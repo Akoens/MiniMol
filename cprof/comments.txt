@@ -1,0 +1,4 @@
+When accessing the /api/pdb GET. The view.prof is the result of having to download a PDB. Where as the view2.prof is when it has the PDB file localy stored.
+
+Here is an Explaination on how to run the cprofiler for Django:
+https://medium.com/kami-people/profiling-in-django-9f4d403a394f
